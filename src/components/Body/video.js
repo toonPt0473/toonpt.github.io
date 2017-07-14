@@ -5,7 +5,7 @@ import SearchBar from './Video/searchbar';
 import VideoList from './Video/video_list'
 import VideoDetail from './Video/video_detail'
 
-const youtubeKey = "AIzaSyAW3CMB8q1N0AGfyoUoGUx9EsPsirjdNOA";
+const youtubeKey = "AIzaSyDWHuwOM3nNjB9LYCz_nVw9St-vFIv0xrs";
 
 class Video extends Component{
         constructor(props){
