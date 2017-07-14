@@ -49,7 +49,7 @@ const Chatbox = () => {
                     </div> 
                     
                         <fieldset>					 
-                            <input type="text" placeholder="Type your message…" name="content" autoFocus onKeyUp={typingMsg}/>
+                            <input type="text" placeholder="Type your message…" name="content" id="name" autoFocus onKeyUp={typingMsg}/>
                             <input type="hidden" />
                          </fieldset>
                     
