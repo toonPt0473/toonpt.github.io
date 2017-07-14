@@ -18,17 +18,17 @@
 }
 
 .pimg1 {
-    background-image: url('/images/top.jpeg');
+    background-image: url('https://static.pexels.com/photos/487622/pexels-photo-487622.jpeg');
     min-height: 400px;
 }
 
 .pimg2 {
-    background-image: url('/images/mid.jpeg');
+    background-image: url('https://static.pexels.com/photos/266046/pexels-photo-266046.jpeg');
     min-height: 400px;
 }
 
 .pimg3 {
-    background-image: url('/images/bot.jpeg');
+    background-image: url('https://static.pexels.com/photos/485376/pexels-photo-485376.jpeg');
     min-height: 400px;
 }
 
