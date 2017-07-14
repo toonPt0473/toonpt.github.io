@@ -40,8 +40,21 @@ function Top({clickOnHead}){
                     }
                     
                     .header strong{
+                        font-size: 1.15em;
                         color: #999;
+                    }  
+
+                    @media(max-width:1000px){
+                        .header strong{
+                            font-size: 0.95em;
+                        }
                     }
+
+                    @media(max-width:800px){
+                        .header strong{
+                            font-size: 0.67em;
+                        }
+                    }                  
                 `}
             </style>
         </div>

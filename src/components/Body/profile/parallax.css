@@ -73,3 +73,19 @@
         background-attachment: scroll;
     }
 }
+
+@media(max-width: 800px){
+    .ptext {
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .section {
+        padding: 30px 20px;
+    }
+}
+
