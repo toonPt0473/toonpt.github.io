@@ -5,7 +5,10 @@ import SearchBar from './Video/searchbar';
 import VideoList from './Video/video_list'
 import VideoDetail from './Video/video_detail'
 
+// youtube api key for gh-page
 const youtubeKey = "AIzaSyDWHuwOM3nNjB9LYCz_nVw9St-vFIv0xrs";
+// youtube api key for localhost
+//const youtubeKey = "AIzaSyAW3CMB8q1N0AGfyoUoGUx9EsPsirjdNOA";
 
 class Video extends Component{
         constructor(props){

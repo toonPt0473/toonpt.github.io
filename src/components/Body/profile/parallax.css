@@ -80,6 +80,10 @@
         letter-spacing: 3px;
     }
 
+    .pimg1 {
+        min-height: 480px;
+    }
+
     h2 {
         font-size: 1.5em;
     }
