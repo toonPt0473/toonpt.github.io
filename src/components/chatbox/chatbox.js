@@ -47,12 +47,12 @@ const Chatbox = () => {
                             </div> 
                         </div> 
                     </div> 
-                    <form action="/lineNotify" method="post">
+                    
                         <fieldset>					 
                             <input type="text" placeholder="Type your message…" name="content" autoFocus onKeyUp={typingMsg}/>
                             <input type="hidden" />
                          </fieldset>
-                    </form>
+                    
                 </div> 
             </div> 	
             <style>{`
@@ -151,7 +151,7 @@ const Chatbox = () => {
                         font-size: 13px;
                     }
 
-                    #live-chat form {
+                    #live-chat fieldset {
                         padding: 24px;
                     }
 
