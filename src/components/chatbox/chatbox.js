@@ -47,12 +47,12 @@ const Chatbox = () => {
                             </div> 
                         </div> 
                     </div> 
-                    
+                    <form action="/toonpt.github.io/linenotify" method="post">
                         <fieldset>					 
                             <input type="text" placeholder="Type your message…" name="content" id="name" autoFocus onKeyUp={typingMsg}/>
                             <input type="hidden" />
                          </fieldset>
-                    
+                    </form>
                 </div> 
             </div> 	
             <style>{`
