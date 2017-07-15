@@ -1,6 +1,6 @@
 import React from 'react';
 //import fade from './fade';
-import $ from 'jquery'
+import $ from 'jquery';
 
 const time = new Date();
 const text = 'หากต้องการเรียกสัมภาษณ์งาน กรุณาแจ้งรายละเอียดในกล่อง Chat Box นี้ แล้วข้อความจะแจ้งเตือนมาในไลน์ของผมครับ ขอบคุณครับ'
