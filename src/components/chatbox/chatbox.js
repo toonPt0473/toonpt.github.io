@@ -39,7 +39,7 @@ const Chatbox = () => {
                 <div className="chat">			
                     <div className="chat-history">
                         <div className="chat-message clearfix">					
-                            <img src="http://gravatar.com/avatar/2c0ad52fc5943b78d6abe069cc08f320?s=32" alt="" width="32" height="32" />
+                            <img src="https://gravatar.com/avatar/2c0ad52fc5943b78d6abe069cc08f320?s=32" alt="" width="32" height="32" />
                             <div className="chat-message-content clearfix">						
                                 <span className="chat-time">{time.getHours()}:{time.getMinutes()}</span>
                                 <h5 className="hname">Paitoon Arayasatjapong</h5><br/>
@@ -47,12 +47,10 @@ const Chatbox = () => {
                             </div> 
                         </div> 
                     </div> 
-                    <form action="/toonpt.github.io/linenotify" method="post">
                         <fieldset>					 
                             <input type="text" placeholder="Type your message…" name="content" id="name" autoFocus onKeyUp={typingMsg}/>
                             <input type="hidden" />
                          </fieldset>
-                    </form>
                 </div> 
             </div> 	
             <style>{`

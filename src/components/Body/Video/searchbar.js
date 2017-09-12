@@ -30,7 +30,7 @@ class SearchBar extends Component {
                             border-radius: 5px;
                         }
                     `}
-                    </style>
+                </style>
             </div>
         )
     }
