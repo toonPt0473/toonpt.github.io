@@ -54,7 +54,10 @@ class Video extends Component{
                 return(
                         <div>  
                             <div>
-                                <SearchBar videoSearchTerm={videoSearch} /><br />
+                                <SearchBar videoSearchTerm={videoSearch} setMax={() => {
+                                        this.max = 5;
+                                        this.setState({loadMoreVisible:true})
+                                        }} /><br />
                                 <VideoDetail video={this.state.selectedVideo} />
                                 <VideoList 
                                         videos={this.state.videos}

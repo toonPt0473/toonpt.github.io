@@ -12,6 +12,8 @@ class SearchBar extends Component {
                     placeholder="   Search by Press 'Enter'"
                     onKeyUp={event => {
                         if(event.keyCode === 13){
+                            console.log(this.props)
+                            this.props.setMax()
                             this.onInputChange(event.target.value , self.props.maxResults)
                             }
                         }
